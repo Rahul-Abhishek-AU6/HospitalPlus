@@ -8,12 +8,12 @@ body, html {
     height: 100%;
     background-repeat: no-repeat;
     background-image: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));
-    /*background: url(https://i.ytimg.com/vi/uwt2FLoYWe0/maxresdefault.jpg) no-repeat center center fixed;*/
+    background: url(../images/hsopital.jpg);
 }
 
 
 .card-container.card {
-    max-width: 350px;
+    max-width: 550px;
     padding: 40px 40px;
 }
 
@@ -30,15 +30,15 @@ body, html {
  * Card component
  */
 .card {
-    background-color: #F7F7F7;
+    background-color: rgba(29, 42, 82, 0.329);
     /* just in case there no content*/
     padding: 20px 25px 30px;
     margin: 0 auto 25px;
     margin-top: 50px;
     /* shadows and rounded borders */
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 15px;
     -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
@@ -102,7 +102,7 @@ body, html {
 }
 
 .form-signin .form-control:focus {
-    border-color: rgb(104, 145, 162);
+    border-color: rgba(7, 71, 44, 0.877);
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);

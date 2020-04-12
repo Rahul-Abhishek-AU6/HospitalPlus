@@ -33,8 +33,8 @@ $(document).ready(function() {
                  var timeDifferenceInMinutes = Math.abs(timeDifference) / 60 / 1000;
 
                  // check if he need to be updated
-                 // @@@@@@@@@@@@@@@@@@@@@@@@@@ -> need to change the time for the interval to be updated
-                 if (timeDifferenceInMinutes > 1440) {
+                 // need to change the time(minutes) for the interval to be updated
+                 if (timeDifferenceInMinutes > 1) {
                     patientsRowConstructor.push("<span class=\"glyphicon glyphicon-warning-sign\" style=\"color: red;\"></span>   " + patient["firstName"] + " " + patient["lastName"]);
                  } else {
                     patientsRowConstructor.push(patient["firstName"] + " " + patient["lastName"]);
@@ -144,7 +144,7 @@ $(document).ready(function() {
 			  resposnive: true,
 			  info: false,
                 language: {
-                     searchPlaceholder: "Search room...",
+                     searchPlaceholder: "Search Room...",
                      sSearch: ""
               }
 		  });

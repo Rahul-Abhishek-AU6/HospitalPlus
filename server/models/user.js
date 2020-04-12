@@ -1,5 +1,4 @@
 /*
- 	Define the authentification system and the user model.
 
 	***Password are stored encrypted using Bcrypt algorithm.
 */

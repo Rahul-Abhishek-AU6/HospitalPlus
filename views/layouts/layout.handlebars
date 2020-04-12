@@ -50,7 +50,8 @@
     <![endif]-->
 </head>
 <body>
-    <div id="wrapper">
+    <div id="wrapper" style="background-color: #baa71f47;
+">
         <!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 
@@ -71,7 +72,7 @@
             <ul class="nav navbar-right navbar-top-links">
 
 
-                <a href="/" style="margin-top:8px;" class="btn btn-danger" role="button">Logout</a>
+                <a href="/" style="margin-top:8px;" class="btn btn-primary" role="button">Logout</a>
             </ul>
 
 
@@ -81,13 +82,13 @@
 
                     <ul class="nav" id="side-menu">
                         <li>
-                            <a href="/app" class="active"><i class="fa fa-bar-chart fa-fw"></i> Dashboard</a>
+                            <a href="/app" class="active"><i class="fa fa-braille fa-fw"></i>Hospital Dashboard</a>
                         </li>
                         <li>
-                            <a href="/app/addpatient" class="active"><i class="fa fa-ambulance fa-fw"></i>  Add patient</a>
+                            <a href="/app/addpatient" class="active"><i class="fa fa-user-plus fa-fw"></i>  Add Patient</a>
                         </li>
                         <li>
-                            <a href="/app/systemsettings" class="active"><i class="fa fa-dashboard fa-fw"></i>    System settings</a>
+                            <a href="/app/systemsettings" class="active"><i class="fa fa-gears fa-fw"></i>    System settings</a>
                         </li>
                     </ul>
                 </div>
@@ -97,7 +98,7 @@
 
 
         <!-- Page Content -->
-        <div id="page-wrapper">
+        <div id="page-wrapper" style="min-height: 371px;background-color: #bbbdd3b0;"">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
@@ -127,6 +128,7 @@
                  {{/each}}
 
                 <!-- ... Others content goes here ... -->
+
                 {{{body}}}
             </div>
         </div>

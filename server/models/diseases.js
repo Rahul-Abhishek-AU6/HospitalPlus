@@ -24,6 +24,7 @@ var Disease = mongoose.model('Disease', DiseaseSchema);
 		-> if they are deleted from the system, and the system restarts, then they will be added again in the system
 */
 
+
 var scoreOfDisease = {}; // empty map
 
 module.exports = {scoreOfDisease, Disease};
