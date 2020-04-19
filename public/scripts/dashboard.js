@@ -34,7 +34,7 @@ $(document).ready(function() {
 
                  // check if he need to be updated
                  // need to change the time(minutes) for the interval to be updated
-                 if (timeDifferenceInMinutes > 1) {
+                 if (timeDifferenceInMinutes > 60) {
                     patientsRowConstructor.push("<span class=\"glyphicon glyphicon-warning-sign\" style=\"color: red;\"></span>   " + patient["firstName"] + " " + patient["lastName"]);
                  } else {
                     patientsRowConstructor.push(patient["firstName"] + " " + patient["lastName"]);
